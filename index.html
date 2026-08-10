@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO-List</title>
+    <link
+     href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+     rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1><span><i class="ri-calendar-todo-line"></i></span>My Todo List</h1>
+        <p>Stay organinized, stay productive <span><i class="ri-seedling-fill"></i></span></p>
+    </div>
+  
+    <div class="input-section">
+       <input class="border" id="taskInput" type="text" placeholder="Enter a task......"> 
+       <button id="addBtn">Add Task</button>
+    </div>
+
+    <div class="tabs">
+        <button class="filter-btn all active"  id="allBtn">All</button>
+        <button class="filter-btn pending" id="pendingBtn">Pending</button>
+        <button class="filter-btn Completed" id="completedBtn">Completed</button>
+    </div>
+    
+    <div class="task-list">
+        <ul id="taskList"></u>
+            <p id="emptyMsg"> No tasks yet <br>
+            Add your first task!</p>
+    </div>
+    
+    <div class="task-status">
+        <div class="task-count">
+          <p>Total Tasks : <span id="totalTask">0
+          </span> </p>
+          <p>Completed Tasks : <span id="completedTask">0
+          </span> </p>
+          <p>Pending Tasks : <span id="pendingTask">0
+          </span> </p>
+        </div>
+        
+        <div class="clear">
+            <button id="clearBtn">Clear All</button>
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
