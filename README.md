@@ -33,6 +33,8 @@ Through this project, I practiced:
 
 
 # ScreenShot
+ 
+ ![Local Storage](/screenShots/todoApp.png)
 
 # Author
 
