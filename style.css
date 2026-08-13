@@ -196,14 +196,26 @@ input{
 .task{
     width: 100%;
 }
+.task-list li{
+     position: relative;
+    padding: 15px 90px 15px 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
 .right{
     gap: 15px;
     margin-right: 10px;
 }
 .delete-btn{
+    position: absolute;
+    top: 15px;
+    right: 50px;
     font-size: 18px;
 }
 .edit-btn{
+    position: absolute;
+    top: 15px;
+    right: 15px;
     font-size: 18px;
 }
 .task-status{
@@ -227,10 +239,13 @@ input{
 .task-count span{
      margin-right: 10px;
 }
+.Task{
+    flex: 1;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
 .task-count{
-    /* display: flex;
-    gap: 20px;
-    margin: 20px 10px; */
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
