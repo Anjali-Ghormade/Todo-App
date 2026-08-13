@@ -218,10 +218,11 @@ input{
     margin-top: 50px;
 }
 .task-count p{
+    
     white-space: nowrap;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
-    border-right: 2px solid black;
+    border-right: none;
 }
 .task-count span{
      margin-right: 10px;
@@ -233,6 +234,7 @@ input{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    text-align: center;
 
 }
 #deleteAll{
