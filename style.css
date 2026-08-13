@@ -219,7 +219,7 @@ input{
 }
 .task-count p{
     white-space: nowrap;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     border-right: 2px solid black;
 }
@@ -227,9 +227,14 @@ input{
      margin-right: 10px;
 }
 .task-count{
-    display: flex;
+    /* display: flex;
     gap: 20px;
-    margin: 20px 10px;
+    margin: 20px 10px; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    font-size: 25px;
+
 }
 #deleteAll{
     padding: 10px 15px;
@@ -239,6 +244,7 @@ input{
     font-size: 15px;
     border: none;
     border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 }
